@@ -1,0 +1,1248 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    body{
+        overflow-x: hidden;
+    }
+    /* NAVBAR PART START */
+    .navbar-toggler i{
+        color: #ffff;
+        font-size: 30px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #0d113d;
+        border-radius: 20px;
+    }
+    /* NAVBAR PART END */
+
+    /* HEADER BANNER PART START */
+    .banner_overlay {
+        padding: 150px 0 5px 0;
+    }
+
+    .banner_text h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        line-height: 26px;
+        padding: 0 10px;
+    }
+    .banner_left_btn{ 
+        text-align: center;
+        margin-bottom: 20px;   
+    }
+    .banner_right_btn{
+        text-align: center  ;
+    }
+    .bannerprev {
+        left: 15px;
+        top: 36%;
+        transform: translateY(-50%);
+        font-size: 30px;
+    }
+    .bannernext {
+        right: 15px;
+        top: 36%;
+        transform: translateY(-50%);
+        font-size: 30px;
+    }
+    /* HEADER BANNER PART END */
+
+    /* STORY PART CSS START */
+    #story_part {
+        padding: 35px 0;
+    }
+    .story_text h3 {
+        font-size: 25px;
+    }
+    .story_text p {
+        margin: 20px 0 14px 0;
+    }
+    .story_text a {
+        margin-left: 18px;
+        margin-bottom: 20px;
+    }
+    /* STORY PART CSS END */
+
+    /* MISSION PART CSS START */
+    #mission_part {
+        padding: 30px 0;
+    }
+
+    .mission_text p {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .mission_icon_heading{
+        text-align: center;
+    }
+    /* MISSION PART CSS END */
+
+    /* DIGITAL LAB PART CSS START */
+    .digital_overlay {
+        padding: 30px 0;
+    }
+
+    .digital_lab_content h3 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    /* DIGITAL LAB PART CSS END */
+
+    /* SERVICE PART CSS START */
+    #service_part {
+        padding: 30px 0 30px 0;
+    }
+    .service_content {
+        margin-bottom: 10px;
+        margin-left: 17px;
+    }
+    .all_service_content {
+        margin-left: 17px;
+    }
+
+    .all_service_content_text h3 {
+        padding-top: 94px;
+        padding-left: 87px;
+        padding-bottom: 60px;
+        padding-right: 31px;
+    }
+
+    .all_service_content_text h3::after {
+        left: -163px;
+    }
+    /* SERVICE PART CSS END */
+
+    /* SUPPORT PART CSS START */
+    #support_part {
+        padding-top: 20px;
+    }
+    .support_part_image {
+        margin-left: -63px;
+    }
+
+    .support_text h3 {
+        font-size: 25px;
+    }
+
+    .support_text p {
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    .support_text ul li {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    /* SUPPORT PART CSS END */
+
+    /* DREAM PROJECT PART CSS START */
+    #dream_project_part {
+        padding: 30px 0;
+    }
+
+    .dream_project_text h3 {
+        padding-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .dream_project_btn{
+        text-align: center;
+    }
+    /* DREAM PROJECT PART CSS END */
+
+    /* PORTFOLIO PART CSS START */
+    #portfolio_part {
+        padding: 30px 0 30px 0;
+    }
+    .portfolio_card {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .portfolioprev {
+        right: 26px;
+        top: -44px;
+    }
+    /* PORTFOLIO PART CSS END */
+
+    /* BLOG PART CSS START */
+    #blog_part {
+        padding: 30px 0 30px 0;
+    }
+    .blog_content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .blog_title p {
+        font-size: 15px;
+    }
+    .blog_post_date p {
+        font-size: 13px;
+    }
+    .blog_author p {
+        font-size: 13px;
+    }
+    /* BLOG PART CSS END */
+
+    /* FOOTER PART CSS START */
+    .newsletter_text{
+        text-align: center;
+    }
+    .newsletter_text h3 {
+        margin-top: 0px;
+        line-height: 22px;
+    }
+    .newsletter_text p {
+        margin-bottom: 20px;
+    }
+    .email_input{
+        margin-bottom: 15px;
+    }
+    .mid_footer {
+        padding: 35px 0;
+    }
+    .company_logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .company_bio p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .page_link_column{
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .copyright{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #footer_part {
+        padding-bottom: 20px;
+    }
+    .social_link{
+        text-align: center;
+    }
+    .bottom_footer {
+        padding-top: 30px;
+    }
+    /* FOOTER PART CSS END */
+
+    /* BACK TO TOP BUTTON CSS START */
+    .back-to-top {
+        right: 30px;
+        bottom: 50px;
+    }
+    .back-to-top i {
+        opacity: 80%;
+    }
+    /* BACK TO TOP BUTTON CSS END */
+
+    /* ===================================== */
+        /* ABOUT US PAGE CSS START*/
+    /* ===================================== */
+    /* HEADER BANNER PART CSS START */
+    
+    .about_overlay {
+        padding-top: 150px !important;
+    }
+    .about_banner {
+        padding-bottom: 40px;
+    }
+
+    .about_banner_navigator{
+        text-align: center;
+    }
+    /* HEADER BANNER PART CSS END */
+
+    /* COMPANY STORY PART CSS START */
+    #company_story_part {
+        padding: 35px 0 20px 0;
+    }
+
+    .company_info_heading{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .company_info_heading h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .company_info_text p {
+        font-size: 13px;
+        text-align: center;
+    }
+    /* COMPANY STORY PART CSS END */
+
+    /* ABOU TEAM PART CSS START */
+    #about_team_part {
+        padding: 30px 0;
+    }
+    .team_card {
+        margin-top: 20px;
+    }
+    .teamprev {
+        right: 30px;
+        top: -20px;
+    }
+    /* ABOU TEAM PART CSS END */
+
+    /* QUOTE PART CSS START */
+    #quote_part {
+        padding: 30px 0;
+    }
+    /* QUOTE PART CSS END */
+
+    /* ===================================== */
+        /* ABOUT US PAGE CSS END*/
+    /* ===================================== */
+
+    /* ===================================== */
+        /* SERVICES PAGE CSS START*/
+    /* ===================================== */
+
+    /* WEB DESIGN PART CSS START */
+    #web_design_part {
+        padding: 35px 0 50px 0;
+    }
+    .web_design_text{
+        text-align: center;
+    }
+    .web_design_text p {
+        font-size: 13px;
+    }
+    .web_design_text_img{
+        margin-top: -27px;
+        margin-bottom: -15px;
+    }
+    .wd_text_bottom {
+        margin-top: 25px;
+    }
+    .design_service_menu{
+        margin-top: 30px;
+    }
+    .development_service_menu_items {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /* WEB DESIGN PART CSS END */
+
+    /* ===================================== */
+        /* SERVICES PAGE CSS END*/
+    /* ===================================== */
+
+    /* ===================================== */
+        /* CONTACT PAGE CSS END*/
+    /* ===================================== */
+
+    /* CONTACT CARDS PART CSS START */
+    #contact_card_part {
+        padding: 30px 0;
+    }
+    .contact_card_icon a {
+        font-size: 90px;
+    }
+    .contact_item_info {
+        margin-top: 25px;
+    }
+    .contact_card_item{
+        margin-bottom: 20px;
+    }
+    /* CONTACT CARDS PART CSS END */
+
+    /* LOCATION PART CSS START */
+    #location_part {
+        padding: 40px 0 50px 0;
+    }
+    /* LOCATION PART CSS START */
+
+    /* CONTACT FORM PART CSS START */
+    #contact_form_part {
+        padding: 30px 0;
+    }
+    .form_item{
+        margin-bottom: 10px;
+    }
+    .contact_form_submit_btn{
+        text-align: center;
+    }
+    /* CONTACT FORM PART CSS END */
+
+    /* ===================================== */
+        /* CONTACT PAGE CSS END*/
+    /* ===================================== */
+
+    
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    body{
+        overflow-x: hidden;
+    }
+    /* NAVBAR PART START */
+    .navbar-toggler i{
+        color: #ffff;
+        font-size: 30px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #0d113d;
+        border-radius: 20px;
+    }
+    /* NAVBAR PART END */
+
+    /* HEADER BANNER PART START */
+    .banner_overlay {
+        padding: 150px 0 5px 0;
+    }
+
+    .banner_text h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        line-height: 26px;
+        padding: 0 10px;
+    }
+    .banner_left_btn{ 
+        text-align: center;
+        margin-bottom: 20px;   
+    }
+    .banner_right_btn{
+        text-align: center  ;
+    }
+    .bannerprev {
+        left: 30px;
+        top: 54%;
+    }
+    .bannernext {
+        right: 30px;
+        top: 54%;
+    }
+    /* HEADER BANNER PART END */
+
+    /* STORY PART CSS START */
+    #story_part {
+        padding: 35px 0;
+    }
+    .story_text h3 {
+        font-size: 25px;
+    }
+    .story_text p {
+        margin: 20px 0 14px 0;
+    }
+    .story_text a {
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+    /* STORY PART CSS END */
+
+    /* MISSION PART CSS START */
+    #mission_part {
+        padding: 30px 0;
+    }
+
+    .mission_text p {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .mission_icon_heading{
+        text-align: center;
+    }
+    .mission_text{
+        text-align: center;
+    }
+    /* MISSION PART CSS END */
+
+    /* DIGITAL LAB PART CSS START */
+    .digital_overlay {
+        padding: 30px 0;
+    }
+
+    .digital_lab_content h3 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    /* DIGITAL LAB PART CSS END */
+
+    /* SERVICE PART CSS START */
+     #service_part {
+        padding: 30px 0 30px 0;
+    }
+    .service_content {
+        margin-bottom: 10px;
+        margin-left: 115px;
+    }
+    .all_service_content {
+        margin-left: 17px;
+    }
+
+    .all_service_content_text h3 {
+        padding-top: 94px;
+        padding-left: 77px;
+        padding-bottom: 60px;
+        padding-right: 31px;
+    }
+
+    .all_service_content_text h3::after {
+        left: -174px;
+    }
+
+    .smart_tv_app{
+        margin-right: 136px;
+    }
+
+    .all_service_content{
+        margin-left: 113px;
+    }
+    /* SERVICE PART CSS END */
+
+    /* SUPPORT PART CSS START */
+    #support_part {
+        padding-top: 20px;
+    }
+    .support_part_image {
+        margin-left: 35px;
+    }
+
+    .support_text h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .support_text p {
+        margin-top: 15px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .support_text ul li {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    /* SUPPORT PART CSS END */
+
+    /* DREAM PROJECT PART CSS START */
+    #dream_project_part {
+        padding: 30px 0;
+    }
+
+    .dream_project_text h3 {
+        padding-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .dream_project_btn{
+        text-align: center;
+    }
+    /* DREAM PROJECT PART CSS END */
+
+    /* PORTFOLIO PART CSS START */
+    #portfolio_part {
+        padding: 30px 0 30px 0;
+    }
+    .portfolio_card {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .portfolioprev {
+        right: 26px;
+        top: -75px;
+    }
+    /* PORTFOLIO PART CSS END */
+
+    /* BLOG PART CSS START */
+    #blog_part {
+        padding: 30px 0 30px 0;
+    }
+    .blog_content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .blog_title p {
+        font-size: 15px;
+    }
+    .blog_post_date p {
+        font-size: 13px;
+    }
+    .blog_author p {
+        font-size: 13px;
+    }
+    /* BLOG PART CSS END */
+
+    /* FOOTER PART CSS START */
+    .newsletter_text{
+        text-align: center;
+    }
+    .newsletter_text h3 {
+        margin-top: 0px;
+        line-height: 22px;
+    }
+    .newsletter_text p {
+        margin-bottom: 20px;
+    }
+    .email_input{
+        margin-bottom: 15px;
+    }
+    .mid_footer {
+        padding: 35px 0;
+    }
+    .company_logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .company_bio p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .page_link_column{
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .copyright{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #footer_part {
+        padding-bottom: 20px;
+    }
+    .social_link{
+        text-align: center;
+    }
+    .bottom_footer {
+        padding-top: 30px;
+    }
+    /* FOOTER PART CSS END */
+
+    /* BACK TO TOP BUTTON CSS START */
+    .back-to-top {
+        right: 30px;
+        bottom: 50px;
+    }
+    .back-to-top i {
+        opacity: 80%;
+    }
+    /* BACK TO TOP BUTTON CSS END */
+
+    /* ===================================== */
+        /* ABOUT US PAGE CSS START*/
+    /* ===================================== */
+    /* HEADER BANNER PART CSS START */
+    
+    .about_overlay {
+        padding-top: 150px !important;
+    }
+    .about_banner {
+        padding-bottom: 40px;
+    }
+
+    .about_banner_navigator{
+        text-align: center;
+    }
+    /* HEADER BANNER PART CSS END */
+
+    /* COMPANY STORY PART CSS START */
+    #company_story_part {
+        padding: 35px 0 20px 0;
+    }
+
+    .company_info_heading{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .company_info_heading h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .company_info_text p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .company_story_image_one_overlay p {
+        padding: 30px 100px;
+        text-align: center;
+    }
+    .achievement_icon{
+        text-align: center;
+        padding-top: 65px;
+    }
+    .company_story_image_two_overlay {
+        text-align: center;
+    }
+    /* COMPANY STORY PART CSS END */
+
+    /* ABOU TEAM PART CSS START */
+    #about_team_part {
+        padding: 30px 0;
+    }
+    .team_card {
+        margin-top: 20px;
+    }
+    .teamprev {
+        right: 30px;
+        top: -20px;
+    }
+    /* ABOU TEAM PART CSS END */
+
+    /* QUOTE PART CSS START */
+    #quote_part {
+        padding: 30px 0;
+    }
+    /* QUOTE PART CSS END */
+
+    /* ===================================== */
+        /* ABOUT US PAGE CSS END*/
+    /* ===================================== */
+
+    /* ===================================== */
+        /* SERVICES PAGE CSS START*/
+    /* ===================================== */
+
+    /* WEB DESIGN PART CSS START */
+    #web_design_part {
+        padding: 35px 0 50px 0;
+    }
+    .web_design_text{
+        text-align: center;
+    }
+    .web_design_text p {
+        font-size: 13px;
+    }
+    .web_design_text_img{
+        margin-top: -27px;
+        margin-bottom: -15px;
+    }
+    .wd_text_bottom {
+        margin-top: 25px;
+    }
+    .design_service_menu{
+        margin-top: 30px;
+    }
+    .development_service_menu_items {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .twitter_post_overlay {
+        padding: 150px 35px 0 67px;
+    }
+
+    .twitter_post_details {
+        text-align: center;
+    }
+    .twitter_post_date {
+        text-align: center;
+    }
+    /* WEB DESIGN PART CSS END */
+
+    /* ===================================== */
+        /* SERVICES PAGE CSS END*/
+    /* ===================================== */
+
+    /* ===================================== */
+        /* CONTACT PAGE CSS END*/
+    /* ===================================== */
+
+    /* CONTACT CARDS PART CSS START */
+    #contact_card_part {
+        padding: 30px 0;
+    }
+    .contact_card_icon a {
+        font-size: 90px;
+    }
+    .contact_item_info {
+        margin-top: 25px;
+    }
+    .contact_card_item{
+        margin-bottom: 20px;
+    }
+    /* CONTACT CARDS PART CSS END */
+
+    /* LOCATION PART CSS START */
+    #location_part {
+        padding: 40px 0 50px 0;
+    }
+    /* LOCATION PART CSS START */
+
+    /* CONTACT FORM PART CSS START */
+    #contact_form_part {
+        padding: 30px 0;
+    }
+    .form_item{
+        margin-bottom: 10px;
+    }
+    .contact_form_submit_btn{
+        text-align: center;
+    }
+    /* CONTACT FORM PART CSS END */
+
+    /* ===================================== */
+        /* CONTACT PAGE CSS END*/
+    /* ===================================== */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    body{
+        overflow-x: hidden;
+    }
+    /* NAVBAR PART START */
+    .navbar-toggler i{
+        color: #ffff;
+        font-size: 30px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #0d113d;
+        border-radius: 20px;
+    }
+    /* NAVBAR PART END */
+
+    /* HEADER BANNER PART START */
+    .banner_overlay {
+        padding: 150px 0 5px 0;
+    }
+
+    .banner_text h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        line-height: 26px;
+        padding: 0 10px;
+    }
+    .banner_left_btn{ 
+        text-align: center;
+        margin-bottom: 20px;   
+    }
+    .banner_right_btn{
+        text-align: center  ;
+    }
+    .bannerprev {
+        left: 30px;
+        top: 54%;
+    }
+    .bannernext {
+        right: 30px;
+        top: 54%;
+    }
+    /* HEADER BANNER PART END */
+
+    /* STORY PART CSS START */
+    #story_part {
+        padding: 35px 0;
+    }
+    .story_text h3 {
+        font-size: 25px;
+    }
+    .story_text p {
+        margin: 20px 0 14px 0;
+        text-align: center;
+    }
+    .story_text a {
+        margin-left: 220px;
+        margin-bottom: 20px;
+    }
+    /* STORY PART CSS END */
+
+    /* MISSION PART CSS START */
+    #mission_part {
+        padding: 30px 0;
+    }
+
+    .mission_text p {
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .mission_icon_heading{
+        text-align: center;
+    }
+    .mission_text{
+        text-align: center;
+    }
+    /* MISSION PART CSS END */
+
+    /* DIGITAL LAB PART CSS START */
+    .digital_overlay {
+        padding: 30px 0;
+    }
+
+    .digital_lab_content h3 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    /* DIGITAL LAB PART CSS END */
+
+    /* SERVICE PART CSS START */
+    #service_part {
+        padding: 30px 0 30px 0;
+    }
+    .service_content {
+        margin-bottom: 10px;
+        margin-left: 205px;
+    }
+    .all_service_content {
+        margin-left: 17px;
+    }
+
+    .all_service_content_text h3 {
+        padding-top: 130px;
+        padding-left: 263px;
+        padding-bottom: 60px;
+        padding-right: 31px;
+    }
+    
+
+    .all_service_content_text h3::after {
+        left: 12px;
+    }
+
+    .smart_tv_app{
+        margin-right: 136px;
+        margin-left: -100px;
+    }
+
+    .all_service_content{
+        margin-left: 106px;
+    }
+    /* SERVICE PART CSS END */
+
+    /* SUPPORT PART CSS START */
+    #support_part {
+        padding-top: 20px;
+    }
+    .support_part_image {
+        text-align: center;
+    }
+
+    .support_text h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .support_text p {
+        margin-top: 15px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .support_text ul li {
+        line-height: 30px;
+        font-size: 14px;
+        margin-left: 125px;
+    }
+    /* SUPPORT PART CSS END */
+
+    /* DREAM PROJECT PART CSS START */
+    #dream_project_part {
+        padding: 30px 0;
+    }
+
+    .dream_project_text h3 {
+        padding-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .dream_project_btn{
+        text-align: center;
+    }
+    /* DREAM PROJECT PART CSS END */
+
+    /* PORTFOLIO PART CSS START */
+    #portfolio_part {
+        padding: 30px 0 30px 0;
+    }
+    .portfolio_card {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .portfolioprev {
+        right: 26px;
+        top: -75px;
+    }
+    /* PORTFOLIO PART CSS END */
+
+    /* BLOG PART CSS START */
+    #blog_part {
+        padding: 30px 0 30px 0;
+    }
+    .blog_content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .blog_title p {
+        font-size: 15px;
+    }
+    .blog_post_date p {
+        font-size: 13px;
+    }
+    .blog_author p {
+        font-size: 13px;
+    }
+    /* BLOG PART CSS END */
+
+    /* FOOTER PART CSS START */
+    .newsletter_text{
+        text-align: center;
+    }
+    .newsletter_text h3 {
+        margin-top: 0px;
+        line-height: 22px;
+    }
+    .newsletter_text p {
+        margin-bottom: 20px;
+    }
+    .email_input{
+        margin-bottom: 15px;
+    }
+    .mid_footer {
+        padding: 35px 0;
+    }
+    .company_logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .company_bio p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .page_link_column{
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .copyright{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #footer_part {
+        padding-bottom: 20px;
+    }
+    .social_link{
+        text-align: center;
+    }
+    .bottom_footer {
+        padding-top: 30px;
+    }
+    /* FOOTER PART CSS END */
+
+    /* BACK TO TOP BUTTON CSS START */
+    .back-to-top {
+        right: 30px;
+        bottom: 50px;
+    }
+    .back-to-top i {
+        opacity: 80%;
+    }
+    /* BACK TO TOP BUTTON CSS END */
+
+    /* ===================================== */
+        /* ABOUT US PAGE CSS START*/
+    /* ===================================== */
+    /* HEADER BANNER PART CSS START */
+    
+    .about_overlay {
+        padding-top: 150px !important;
+    }
+    .about_banner {
+        padding-bottom: 40px;
+    }
+
+    .about_banner_navigator{
+        text-align: center;
+    }
+    /* HEADER BANNER PART CSS END */
+
+    /* COMPANY STORY PART CSS START */
+    #company_story_part {
+        padding: 35px 0 20px 0;
+    }
+
+    .company_info_heading{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .company_info_heading h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .company_info_text p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .company_story_image_one_overlay p {
+        padding: 30px 100px;
+        text-align: center;
+    }
+    .achievement_icon{
+        text-align: center;
+        padding-top: 65px;
+    }
+    .company_story_image_two_overlay {
+        text-align: center;
+    }
+    /* COMPANY STORY PART CSS END */
+
+    /* ABOU TEAM PART CSS START */
+    #about_team_part {
+        padding: 30px 0;
+    }
+    .team_card {
+        margin-top: 20px;
+    }
+    .teamprev {
+        right: 30px;
+        top: -20px;
+    }
+    /* ABOU TEAM PART CSS END */
+
+    /* QUOTE PART CSS START */
+    #quote_part {
+        padding: 30px 0;
+    }
+    /* QUOTE PART CSS END */
+
+    /* ===================================== */
+        /* ABOUT US PAGE CSS END*/
+    /* ===================================== */
+
+    /* ===================================== */
+        /* SERVICES PAGE CSS START*/
+    /* ===================================== */
+
+    /* WEB DESIGN PART CSS START */
+    #web_design_part {
+        padding: 35px 0 50px 0;
+    }
+    .web_design_text{
+        text-align: center;
+    }
+    .web_design_text p {
+        font-size: 13px;
+    }
+    .web_design_text_img{
+        margin-top: -27px;
+        margin-bottom: -15px;
+    }
+    .wd_text_bottom {
+        margin-top: 25px;
+    }
+    .design_service_menu{
+        margin-top: 30px;
+    }
+    .development_service_menu_items {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .twitter_post_overlay {
+        padding: 150px 35px 0 67px;
+    }
+
+    .twitter_post_details {
+        text-align: center;
+    }
+    .twitter_post_date {
+        text-align: center;
+    }
+    /* WEB DESIGN PART CSS END */
+
+    /* ===================================== */
+        /* SERVICES PAGE CSS END*/
+    /* ===================================== */
+
+    /* ===================================== */
+        /* CONTACT PAGE CSS END*/
+    /* ===================================== */
+
+    /* CONTACT CARDS PART CSS START */
+    #contact_card_part {
+        padding: 30px 0;
+    }
+    .contact_card_icon a {
+        font-size: 90px;
+    }
+    .contact_item_info {
+        margin-top: 25px;
+    }
+    .contact_card_item{
+        margin-bottom: 20px;
+    }
+    /* CONTACT CARDS PART CSS END */
+
+    /* LOCATION PART CSS START */
+    #location_part {
+        padding: 40px 0 50px 0;
+    }
+    /* LOCATION PART CSS START */
+
+    /* CONTACT FORM PART CSS START */
+    #contact_form_part {
+        padding: 30px 0;
+    }
+    .form_item{
+        margin-bottom: 10px;
+    }
+    .contact_form_submit_btn{
+        text-align: center;
+    }
+    /* CONTACT FORM PART CSS END */
+
+    /* ===================================== */
+        /* CONTACT PAGE CSS END*/
+    /* ===================================== */
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

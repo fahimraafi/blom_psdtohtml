@@ -1,0 +1,1117 @@
+/* COMMON CSS START */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* COMMON CSS END */
+
+/* ===================================== */
+        /* HOME PAGE CSS START*/
+/* ===================================== */
+
+/* NAVBAR CSS PART START */
+.navbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.sticky_header{
+    animation: smooth 1s;
+    background: #0d113d;
+    border-radius: 20px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+@keyframes smooth{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+.nav-link {
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 20px !important;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: #753d9d;
+}
+
+/* NAVBAR CSS PART END */
+
+/* HEADER BANNER PART CSS START */
+.banner_slick{
+    position: relative;
+}
+.bannerprev {
+	position: absolute;
+	left: 80px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffff;
+	z-index: 99;
+	font-size: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bannernext{
+    position: absolute;
+	right: 80px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffff;
+	z-index: 99;
+	font-size: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bannerprev:hover{
+    color: #a066c9;
+}
+.bannernext:hover{
+    color: #a066c9;
+}
+
+#banner_part {
+    background: url(../images/blom_header_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner_part_two{
+    background: url(../images/blom_header_banner02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner_part_three{
+    background: url(../images/blom_header_banner03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_overlay {
+    background: rgba(25, 11, 35, 0.60);
+    padding-top: 315px;
+    padding-bottom: 30px;
+}
+/* .slick-dots {
+    display: flex;
+	justify-content: center;
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+    padding-bottom: 30px;
+} */
+
+/* .slick-dots li{
+    margin: 0 0.5rem;
+    background: #ffff;
+    border-radius: 50%;
+} */
+/* .slick-dots button{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+} */
+
+/* .slick-dots li .slick-active button{
+    background-color: tomato;
+} */
+.banner_text h3 {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.banner_text h3 span {
+    color: #a066c9;
+}
+
+.banner_text p {
+    color: #ffff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 80px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.white_transparent_btn {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    background: transparent;
+    padding: 27px 70px;
+    border: 2px solid #ffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.white_transparent_btn:hover {
+    background: #753d9d;
+    border: 2px solid #753d9d;
+}
+
+.banner_buttons {
+    margin-bottom: 150px;
+}
+
+/* HEADER BANNER PART CSS END */
+
+/* STORY PART CSS START */
+#story_part {
+    padding: 70px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.story_text h3 {
+    margin-top: 20px;
+    padding-left: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 18px;
+    color: #0d113d;
+    font-size: 36px;
+    position: relative;
+}
+
+.bold_black {
+    font-weight: 600;
+}
+
+.bold_blue {
+    color: #753d9d;
+}
+
+.story_text h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 85px;
+    width: 5px;
+    background: #753d9d;
+    border-radius: 10px;
+}
+
+.story_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 15px;
+    color: #0d113d;
+    margin: 45px 0 53px 0;
+}
+
+.story_text a {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #0d113d;
+    background: transparent;
+    padding: 27px 70px;
+    border: 2px solid #0d113d;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.story_text a:hover {
+    background: #753d9d;
+    border: 2px solid #753d9d;
+    color: #ffff;
+}
+
+.story_image {
+    position: relative;
+}
+
+.story_image img {
+    border-radius: 10px;
+}
+
+.story_image_overlay {
+    position: absolute;
+    background: rgba(25, 11, 35, 0.60);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* STORY PART CSS END */
+
+/* MISSION PART CSS START */
+#mission_part {
+    padding: 70px 0;
+}
+
+.mission_icon_heading h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #0d113d;
+    text-transform: uppercase;
+}
+
+.mission_text {
+    margin-top: 30px;
+}
+
+.mission_text p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0d113d;
+    line-height: 26px;
+}
+
+/* MISSION PART CSS END */
+
+/* DIGITAL LAB PART CSS START */
+#digital_lab_part {
+    background: url(../images/digital_product_lab_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.digital_overlay {
+    padding: 100px 0;
+    background: rgba(25, 11, 35, 0.60);
+}
+
+.digital_lab_content h3 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 64px;
+}
+
+/* DIGITAL LAB PART CSS END */
+
+/* SERVICE PART CSS START */
+#service_part {
+    padding: 65px 0 70px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.service_heading h3 {
+    padding-top: 10px;
+    padding-left: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 18px;
+    color: #0d113d;
+    font-size: 26px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.service_heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 5px;
+    background: #753d9d;
+    border-radius: 10px;
+}
+
+.service_content {
+    position: relative;
+}
+
+.service_content_ovarlay {
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(25, 11, 35, 0.50), rgba(117, 61, 157));
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.service_content_text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #ffff;
+    padding-left: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    text-transform: uppercase;
+}
+
+.all_service_content {
+    background: #0d113d;
+    /* height: 332px; */
+    border-radius: 5px;
+    /* width: 457px; */
+}
+
+.all_service_content_text h3 {
+    padding-top: 245px;
+    padding-left: 250px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffff;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.all_service_content_text h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 43px;
+    width: 100px;
+    height: 5px;
+    background: #ffff;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+/* SERVICE PART CSS END */
+
+/* SUPPORT PART CSS START */
+#support_part {
+    padding-top: 50px;
+}
+
+.support_text {
+    margin-top: 50px;
+}
+
+.support_text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: #0d113d;
+}
+
+.support_text p {
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0d113d;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.support_text ul li {
+    line-height: 35px;
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.support_text ul li i {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+/* SUPPORT PART CSS END */
+
+/* DREAM PROJECT PART CSS START */
+#dream_project_part {
+    padding: 50px 0;
+    background: #753d9d;
+}
+
+.dream_project_text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.dream_project_btn .white_transparent_btn:hover {
+    background: #ffff;
+    color: #753d9d;
+}
+
+/* DREAM PROJECT PART CSS END */
+
+/* PORTFOLIO PART CSS START */
+#portfolio_part {
+    padding: 70px 0 40px 0;
+    position: relative;
+}
+
+.portfolio_card {
+    position: relative;
+    margin-right: 30px;
+}
+
+.portfolio_card_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(25, 11, 35, 0.60);
+    border-radius: 5px;
+}
+.portfolionext{
+    visibility: hidden;
+}
+
+.portfolioprev {
+	position: absolute;
+	right: 70px;
+	top: -76px;
+	font-size: 30px;
+	text-align: right;
+    cursor: pointer;
+    color: #753d9d;
+}
+
+/* PORTFOLIO PART CSS END */
+
+/* BLOG PART CSS START */
+#blog_part {
+    padding: 40px 0 105px 0;
+}
+
+.blog_content {
+    margin-top: 80px;
+}
+
+.blog_title p {
+    color: #753d9d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.blog_post_date p {
+    color: #a2a2a2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.blog_author p {
+    color: #a2a2a2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.blog_author p span {
+    color: #0d113d;
+}
+
+/* BLOG PART CSS END */
+
+/* FOOTER PART CSS START */
+#footer_part {
+    background: #0d113d;
+    padding-bottom: 40px;
+}
+
+.top_footer {
+    padding: 30px 20px;
+    background: #753d9d;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.newsletter_text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.newsletter_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.email_input input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid #e0c2f6;
+}
+
+.email_input input[placeholder] {
+    color: #e0c2f6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.subscribe_btn .white_transparent_btn {
+    padding: 11px 55px;
+}
+
+.subscribe_btn .white_transparent_btn:hover {
+    border-color: #0d113d;
+    color: #0d113d;
+}
+
+.mid_footer {
+    padding: 75px 0;
+    border-bottom: 1px solid #1e224d;
+}
+
+.company_logo {
+    margin-bottom: 40px;
+}
+
+.company_bio p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.page_link_column ul li a {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.page_link_column ul li a:hover {
+    color: #753d9d;
+}
+
+.bottom_footer {
+    padding-top: 40px;
+}
+
+.copyright p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.social_link a {
+    color: #ffff;
+    font-size: 15px;
+    padding-left: 30px;
+    text-align: right;
+}
+
+/* FOOTER PART CSS END */
+
+/* ===================================== */
+        /* HOME PAGE CSS START*/
+/* ===================================== */
+
+/* ===================================== */
+        /* ABOUT US PAGE CSS START*/
+/* ===================================== */
+
+/* ABOUT BANNER PART CSS START */
+.about_overlay{
+    padding-top: 257px !important;
+}
+.about_banner{
+    padding-bottom: 70px;
+}
+.about_banner_navigator ul li{
+    display: inline-block;
+    color: #ffff;
+    padding-right: 10px;
+}
+
+.about_banner_navigator ul li a{
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: .4s;
+}   
+
+.about_banner_navigator ul li a:hover{
+    color: #753d9d;
+}
+/* ABOUT BANNER PART CSS END */
+
+/* COMPANY STORY PART CSS START */
+#company_story_part{
+    padding: 75px 0 90px 0;
+}
+
+.company_story_image_one{
+    position: relative;
+}
+.company_story_image_two{
+    position: relative;
+}
+.company_story_image_one_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0 0 20px;
+}
+
+.company_story_image_one_overlay p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+}
+.company_story_image_two_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 80px 0 0 30px;
+}
+.achievement_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.company_info_heading h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #0d113d;
+    font-size: 26px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.company_info_heading h3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 5px;
+    width: 130px;
+    background: #753d9d;
+    border-radius: 10px;
+}
+.company_info_text{
+    margin-top: 50px;
+}
+.company_info_text p{
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0d113d;
+    line-height: 26px;
+    font-size: 15px;
+}
+/* COMPANY STORY PART CSS END */
+
+/* ABOUT TEAM PART CSS START */
+#about_team_part{
+    padding: 90px 0;
+    position: relative;
+}
+
+.team_card{
+    margin-top: 100px;
+}
+.member_info{
+    margin-top: 30px;
+}
+.member_info h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #0d113d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.member_info p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #753d9d;
+    font-size: 15px;
+}
+
+.teamprev{
+    position: absolute;
+	right: 70px;
+	top: -20px;
+	font-size: 30px;
+	text-align: right;
+    cursor: pointer;
+    color: #753d9d;
+}
+/* ABOUT TEAM PART CSS END */
+
+/* HIRING PART CSS START */
+#hiring_part {
+    background: url(../images/hiring_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.digital_overlay {
+    padding: 100px 0;
+    background: rgba(25, 11, 35, 0.60);
+}
+/* HIRING PART CSS END */
+
+/* QUOTE PART CSS START */
+#quote_part{
+    padding: 80px 0;
+}
+.quote_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0d113d;
+    font-size: 15px;
+    line-height: 24px;
+}
+/* QUOTE PART CSS END */
+
+/* ===================================== */
+        /* ABOUT US PAGE CSS END*/
+/* ===================================== */
+
+/* ===================================== */
+        /* SERVICES PAGE CSS START*/
+/* ===================================== */
+
+/* WEB DESIGN PART CSS START */
+#web_design_part{
+    padding: 75px 0 200px 0;
+}
+.wd_text_top{
+    margin: 55px 0 40px 0;
+}
+.wd_text_bottom{
+    margin-top: 40px;
+}
+.web_design_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0d113d;
+    line-height: 26px;
+    font-size: 15px;
+}
+.development_service_menu_items{
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+
+.development_service_menu_items ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0d113d;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.development_service_menu_items ul li button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0d113d;
+    font-size: 14px;
+    line-height: 36px; 
+}
+
+.dropdown_btn i{
+    padding-left: 80px;
+}
+
+.dropdown_btn{
+    text-decoration: none;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+.dropdown_container a{
+    display: block;
+    color: #753d9d;
+}
+.dropdown_container{
+    display: none;
+    padding-left: 30px;
+}
+
+.active {
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.development_service_menu_items ul li a:hover{
+    color: #753d9d;
+}
+.development_service_menu_items ul li button:hover{
+    color: #753d9d;
+}
+
+.twitter_post_ad{
+    position: relative;
+}
+.twitter_post_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 30px 25px 0 20px;
+}
+.twitter_post_overlay h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffff;
+    font-size: 25px;
+    padding-left: 20px;
+    position: relative;
+    padding-top: 10px;
+    transition: .4s;
+}
+.twitter_post_overlay h3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 65px;
+    background: #753d9d;
+    border-radius: 10px;
+}
+.twitter_post_author{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffff;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.twitter_post_overlay h3:hover{
+    color: #753d9d;
+}
+.twitter_post_details{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    line-height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.twitter_post_date{
+    color: #575a7c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+/* WEB DESIGN PART CSS END */
+
+/* ===================================== */
+        /* SERVICES PAGE CSS END*/
+/* ===================================== */
+
+
+/* ===================================== */
+        /* CONTACT PAGE CSS START*/
+/* ===================================== */
+
+/* CONTACT CARDS PART CSS START */
+#contact_card_part{
+    padding: 100px 0;
+}
+
+.contact_card_icon a{
+    font-size: 130px;
+    color: #753d9d;
+}
+
+.contact_item_info{
+    margin-top: 50px;
+}
+.contact_item_info h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0d113d;
+    padding-bottom: 15px;
+}
+
+.contact_item_info p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0d113d;
+    line-height: 26px;
+}
+
+.contact_item_info h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #753d9d;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+/* CONTACT CARDS PART CSS END */
+
+/* LOCATION PART CSS START */
+#location_part{
+    padding: 143px 0 246px 0;
+    background: url(../images/location_map.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.map_pin_icon i {
+	font-size: 50px;
+    color: #753d9d;
+}
+/* LOCATION PART CSS END */
+
+/* CONTACT FORM PART CSS START */
+#contact_form_part{
+    padding: 85px 0;
+}
+.form_item input{
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #0d113d;
+}
+.form_item input[placeholder]{
+    padding: 20px 0 20px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0d113d;
+}
+
+.form_text_box input{
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #0d113d;
+}
+
+.form_text_box input[placeholder]{
+    padding: 25px 0 270px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0d113d;
+}
+
+.contact_form_submit_btn .white_transparent_btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0d113d;
+    border: 2px solid #0d113d;
+    text-align: right;
+    transition: .4s ;
+    padding: 25px 95px;
+}
+
+.contact_form_submit_btn .white_transparent_btn:hover{
+    color: #ffff;
+    background: #753d9d;
+    border: 2px solid #753d9d;
+}
+/* CONTACT FORM PART CSS END */
+/* ===================================== */
+        /* CONTACT PAGE CSS END*/
+/* ===================================== */
+
+/* BACK TO TOP BUTTON START */
+.back-to-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.back-to-top i{
+    font-size: 30px;
+    color: #a066c9  ;
+}
+/* BACK TO TOP BUTTON END */
